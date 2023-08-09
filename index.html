@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Content Management </title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+ 
+    <script src="script.js"></script>
+   
+</head>
+
+<body>
+    <div class="top-section">
+        <div class="top">
+            <h1 class="cms" >Content Management Site</h1>
+           
+        </div>
+
+    </div>
+   <div class="too">
+   
+    <div class="hell">
+        <div>
+            <b><label class="font-color" for="title">Heading</label></b> <br />
+            <input class="input font-color " type="text" id="title" placeholder="Enter  Title Here" style="width: 280px;"> <br />
+            <b><label class="font-color" for="content">Description</label></b> <br />
+            <input  class="input font-color" id="content" placeholder="Enter Description Here" style="width:80%;"><br><br>
+        </div>
+
+        <div>
+            <b><label class="label-section font-color " for="image">click to upload image</label></b>
+            <input style="color: black;" type="file" id="image" accept="image/*">
+        </div>
+
+        <div>
+            <b><label class="label-section font-color" for="video">click to upload video</label></b>
+            <input style="color: black;" type="file" id="video" accept="video/*">
+        </div>
+   
+
+    <div class="button-section">
+        <button onclick="submitForm()">Upload</button>
+    </div>
+
+</div>
+
+    <div class="data-container">
+        <div class="data-section" id="dataSection">
+        </div>
+    
+</div>
+</div>
+</body>
+
+</html>
